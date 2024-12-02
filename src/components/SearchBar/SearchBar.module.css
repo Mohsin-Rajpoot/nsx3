@@ -1,6 +1,6 @@
 .searchContainer {
   display: flex;
-  width: 448px;
+  width: 648px;
   max-width: 100%;
   border-radius: 100px;
   background: #fff;
@@ -64,18 +64,10 @@
   border: 0;
 }
 
+
+
+
 /* Responsive Styles */
-@media (max-width: 991px) {
-  .searchContainer {
-    width: 100%; /* Adjust width to fit smaller screens */
-  }
-
-  .searchButton {
-    padding: 15px 35px;
-    font-size: 14px;
-  }
-}
-
 @media (max-width: 576px) {
   .searchContainer {
     flex-direction: column; /* Stack input and button vertically */
@@ -103,3 +95,12 @@
     text-align: center;
   }
 }
+@media (max-width: 991px) {
+
+  .searchButton {
+    padding: 15px 35px;
+    font-size: 14px;
+  }
+}
+
+
